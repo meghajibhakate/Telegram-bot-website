@@ -421,9 +421,10 @@ input:focus {
 
 .bottom {
     line-height: 6px;
-    /* font-size: smaller; */
-    margin-top: 18px;
+    font-size: 15px;
+    margin-top: 72px;
     text-align: center;
+    font-style: italic;
 }
 
 #contactform {
