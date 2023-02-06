@@ -192,7 +192,10 @@ body {
     padding-left: 8px;
     padding-right: 8px;
 }
-
+.px:hover{
+    width: 33px;
+    height: 33px;
+}
 .lp-para {
     margin-left: 130px;
     margin-right: 48px;
@@ -210,9 +213,9 @@ body {
     border: solid 2px #1d8edc;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-    width: 112px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    width: 115px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     border-radius: 20px;
     font-weight: 800;
     text-align: center;
@@ -239,9 +242,9 @@ body {
 
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-    width: 112px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    width: 115px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     border-radius: 20px;
     font-weight: 800;
     text-align: center;
@@ -1249,7 +1252,7 @@ a:hover {
 border-radius: 50%;
 }
 #about{
-    color: #0050ff;
+    color: #379ddd;
 }
 #about:hover{
     color: white;
@@ -1258,7 +1261,7 @@ border-radius: 50%;
     padding:20px 300px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 60px;
 }
 .li-tag {
     display: flex;
