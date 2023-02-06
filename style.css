@@ -1245,6 +1245,7 @@ a:hover {
 .Telegram-pic {
     width: 24px;
     height: 24px;
+border-radius: 50%;
 }
 #about{
     color: #0050ff;
