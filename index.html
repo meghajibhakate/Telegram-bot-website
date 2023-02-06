@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Telegram bot</title>
+    <link rel="shortcut icon" type="image/jpg" href="./assets/favicon.svg" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins:wght@700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap" rel="stylesheet">
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+</head>
+
+<body style="overflow-x: hidden;">
+    <div id="sidebar" class="collapsed ">
+        <button class="btfun" id="closer" title="Close sidebar">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 18H20M4 6H20H4ZM4 12H12H4Z" stroke="black" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
+        </button>
+        <div class="flex-col-n subhead" id="sidebarlinks">
+            <button class="navlink mt btfun" style="color: #0050ff;"><a class="subhead" id="about"
+                    href='#landingpage'>About Bot
+                </a></button>
+            <button class="navlink mt btfun"><a class="subhead" href='#resume'>Features</a></button>
+
+        </div>
+    </div>
+    <div class="flex-row nav">
+        <!--
+            <div class="flex-row myname" style="margin-left: 28px;"><span id="rect"></span><span class="name">Abhishek Gautam</span><span class="subhead">/ UI UX </span></div>
+            -->
+        <!-- <P>Megha Jibhakate</P> -->
+        <!-- <img onclick="window.open('https://officialabhishekgautam.github.io/Portfolio-Website/','_self')"  id="logo" src="./assets/logo.svg"> -->
+        <div class="flex-row">
+            <div class="flex-row navdiv">
+                <ul class="flex-row-n subhead navbar">
+                    <li class="navlink" style="color: #0050ff;"><a href="" id="about">About Bot</a></li>
+                    <li class="navlink"><a href="#resume">Features </a></li>
+
+                </ul>
+            </div>
+            <button title="Toggle sidebar" id="closebt" class="btfun ">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 18H20M4 6H20H4ZM4 12H20H4Z" stroke="black" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <div class="flex-row-n" id="landingpage" style="width: 100vw;">
+        <div class="flex-row-n bgimg" id="landingpage1">
+            <div class="flex-col-n bg3" id="card">
+                <div class="image-cropper">
+                    <img src="./BOT_Image/bot-Telegram.jpeg" alt="BotImage" class="dp">
+                </div>
+                <div class="name " style="font-size: x-large; margin-top: 22px;">Telegram</div>
+                <div class="name " style="font-size: x-large;">Bot</div>
+                <span class="subhead " style=" margin-top: 22px;">Idronline Hindi Bot</span>
+
+                <div class="line " style=" margin-top: 18px;"></div>
+                <div class="flex-row " id="card-bottom">
+                    <div onclick="window.open('')" class="px"><img src="./social/telegram.png" class="Telegram-pic">
+                    </div>
+                    <div onclick="window.open('https://github.com/meghajibhakate','_blank')" class="px"><img
+                            src="./social/github.svg"></div>
+                </div>
+            </div>
+        </div>
+        <div class="flex-row" id="landingpage2">
+            <div class="flex-col-n lp-para-main">
+                <div class="lp-para subhead lp2fix" style="margin-top: 64px; ">IDR वेबसाइट से नयी जानकारी के साथ जुड़े
+                    रहने के लिए Idronline Hindi Telegram Bot एक निःशुल्क उपलब्ध टूल है। </div>
+                <div class="lp-para subhead" style="margin-top: 22px;">
+                    IDR हिंदी वेबसाइट अपने उपयोगकर्ताओं को बहुमूल्य जानकारी प्रदान करती है।IDR उपयोगकर्ताओं के लिए हमने
+                    एक टेलीग्राम बॉट विकसित किया है जो IDR वेबसाइट से नयी अपडेट प्रदान करता है। इस बॉट के साथ,
+                    उपयोगकर्ता अपने टेलीग्राम चैट में IDR हिंदी वेबसाइट से नयी पोस्ट की अपडेट प्राप्त कर सकते हैं।
+                </div>
+                <div class="line la-para" id="linefix" style=" margin-top: 34px;"></div>
+                <div class="flex-row lp-para subhead" style="margin-top: 32px; font-size:small; ">
+                    <div onclick="window.open('')" class="button1" id="resume">
+                        TELEGRAM BOT
+                    </div>
+                    <div onclick="window.open('https://github.com/meghajibhakate','_blank')" class="button2"
+                        style="margin-left: 12px;">PROJECTS</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+    <!-- ************************ -->
+    <div style="width: 100vw;" id="landingpage-bot">
+        <div class="name gffix" style="font-size: x-large; margin-top: 48px;">FEATURES</div>
+        <div>
+            <ul class="features">
+                <li class="li-tag">1:- Easy to use, simply add the bot to your Telegram account and use the 'start'
+                    command
+                    to activate and after that The Bot sent the message on your chat 'अब आप वापस नहीं जा सकते है 😊 और
+                    उम्मीद है आप भी हमारी तरह
+                    उत्साहित होंगे.......'
+                    <img class="start-img" src="./BOT_Image/addingChat.png" alt="start-pic">
+                </li>
+
+                <li class="li-tag">
+                    2:-"After adding bot to group or channel message is received in 2 seconds "मुझे इस ग्रुप जोड़ने के
+                    लिए शुक्रया 🙏 यह बोट आपको आपकी पसंदीदा वेबसइट idr से नयी पोस्ट की अपडेट देगा 😊|"
+                    <img class="start-img" src="./BOT_Image/gropAdd.png" alt="start-pic">
+                </li>
+                <hr>
+
+                <li class="li-tag">
+                    3:- Receive notifications of any new posts or updates to the IDR website, every 10 minutes. Also you
+                    can read the post after clicking on the "पोस्ट पढ़े" button. <img class="start-img"
+                        src="./BOT_Image/update.png" alt="start-pic">
+                    <!-- <img src="./BOT_Image/open.png" alt=""> -->
+                </li>
+
+
+
+
+                <li class="li-tag">
+                    3:- Click on the button and it will ask to users for permission and after cliking on the open it
+                    will take you on IDR website <img class="start-img" src="./BOT_Image/open.png" alt="start-pic">
+                </li>
+
+                <li class="li-tag">4:- Now you can read the latest post in any browser.
+                    <img class="start-img" src="./BOT_Image/idrPost.png" alt="">
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <!-- **************************************** -->
+
+    <div class="flex-col bg3 insetshadow" style="width: 100vw;">
+        <div class="name gffix" style="font-size: x-large; margin-top: 48px;">TOOLS & LANGUAGES I USE</div>
+        <div class="line" style=" margin-top: 18px;"></div>
+        <div class="subhead gffix" style="margin: 18px 6px 0px 6px; font-size: large;">
+        </div>
+        <div class="flex-row" id="skillmainrow">
+            <div class="flex-row" id="skillrow1">
+                <div class="skillbox"><img src="https://grammy.dev/Y.png" alt="grammy" height="60px" width="60px"
+                        style="background-color: aliceblue;"></div>
+                <div class="skillbox"><img
+                        src="https://media.istockphoto.com/id/1378053207/photo/letter-n-red-on-white-background.jpg?s=612x612&w=0&k=20&c=EnjHg0E8dSVq5rceIRl8X11Elru0fUxgL9CniOp8V5E="
+                        height="60px" width="60px"></div>
+                <div class="skillbox"><img src="https://www.devteam.space/wp-content/uploads/2022/05/nodejs.jpg"
+                        alt="nodeJs" height="60px" width="60px"></div>
+                <div class="skillbox"><img
+                        src="https://cdn.freebiesupply.com/logos/thumbs/2x/visual-studio-code-logo.png"
+                        style="background-color: aliceblue;" height="60px" width="60px"></div>
+                <div class="skillbox"><img
+                        src="https://www.opc-router.de/wp-content/uploads/2021/03/mongodb_thumbnail.png"
+                        style="background-color: aliceblue;" height="60px" width="60px"></div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="./script.js" async defer></script>
+</body>
+
+</html>
