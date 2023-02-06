@@ -582,7 +582,7 @@ a:hover {
 }
 
 @media (max-width: 1920px) {
-   
+
     #card {
         margin-left: 460px;
     }
@@ -877,7 +877,7 @@ a:hover {
         margin-right: 48px;
     }
 
-    .features{
+    .features {
         padding: 20px 100px;
     }
 }
@@ -958,6 +958,12 @@ a:hover {
         max-width: 310px;
 
         margin-left: 32px;
+    }
+
+    h1 {
+
+
+        margin-left: 90px;
     }
 
     /* .bgimg{
@@ -1047,6 +1053,9 @@ a:hover {
         margin-top: 30px;
     }
 
+    h1 {
+        margin-left: 40px;
+    }
 }
 
 @media (max-width: 472px) {
@@ -1099,9 +1108,11 @@ a:hover {
     #closer {
         margin-top: 21.5px;
     }
+
     .start-img {
         width: 434px;
     }
+    
 }
 
 @media (max-width: 375px) {
@@ -1138,7 +1149,7 @@ a:hover {
     #closer {
         margin-top: 16px;
     }
-   
+
 }
 
 @media (max-width: 320px) {
@@ -1246,18 +1257,22 @@ a:hover {
     width: 24px;
     height: 24px;
 }
-#about{
+
+#about {
     color: #0050ff;
 }
-#about:hover{
+
+#about:hover {
     color: white;
 }
-.features{
-    padding:20px 300px;
+
+.features {
+    padding: 20px 300px;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
+
 .li-tag {
     display: flex;
     flex-direction: column;
@@ -1271,48 +1286,77 @@ a:hover {
 .start-img {
     width: 500px;
 }
+h1 {
+    margin-left: 147px;
+
+}
 
 @media (max-width: 2100px) {
-    .features{
-        padding:30px  300px;
+    .features {
+        padding: 30px 300px;
     }
+
     .start-img {
-        width: 1200px;
+        width: 1000px;
     }
 }
+
 @media (max-width: 1900px) {
-    .features{
-        padding:30px 220px;
+    .features {
+        padding: 30px 220px;
     }
+
     .start-img {
         width: 600px;
     }
 }
+
 @media (max-width: 1100px) {
-    .features{
-        padding:20px 90px;
+    .features {
+        padding: 20px 90px;
     }
+
     .start-img {
         width: 600px;
     }
 }
 
 @media (max-width: 900px) {
-    .features{
+    .features {
         padding: 40px;
     }
 }
+
+@media (max-width: 900px) {
+    h1 {
+        margin-left: 100px;
+
+    }
+    h1 {
+        margin-left: 94px;
+    }
+}
+@media (max-width: 700px){
+    h1 {
+        margin-left: 94px;
+    }
+}
 @media (max-width: 600px) {
-   
+
     .start-img {
         width: 474px;
     }
+    h1 {
+        margin-left: 40px;
+    }
 }
+
 @media (max-width: 500px) {
     .start-img {
         width: 454px;
     }
 }
+
 @media (max-width: 400px) {
     .start-img {
         width: 306px;
@@ -1326,7 +1370,9 @@ a:hover {
         width: 290px;
 
     }
-    .features{
+
+    .features {
         padding: 16px;
     }
 }
+
