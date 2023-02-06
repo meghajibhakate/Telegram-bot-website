@@ -1286,10 +1286,7 @@ a:hover {
 .start-img {
     width: 500px;
 }
-h1 {
-    margin-left: 147px;
 
-}
 
 @media (max-width: 2100px) {
     .features {
@@ -1327,28 +1324,14 @@ h1 {
     }
 }
 
-@media (max-width: 900px) {
-    h1 {
-        margin-left: 100px;
 
-    }
-    h1 {
-        margin-left: 94px;
-    }
-}
-@media (max-width: 700px){
-    h1 {
-        margin-left: 94px;
-    }
-}
+  
 @media (max-width: 600px) {
 
     .start-img {
         width: 474px;
     }
-    h1 {
-        margin-left: 40px;
-    }
+    
 }
 
 @media (max-width: 500px) {
