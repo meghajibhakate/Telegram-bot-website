@@ -132,7 +132,7 @@ body {
 
 
 .dp {
-    height: 180px;
+    height: 182px;
     width: 180px;
     display: inline;
     margin: 0 auto;
@@ -936,7 +936,7 @@ a:hover {
     .lp-para {
         margin: auto;
         width: auto;
-        text-align: center;
+        /* text-align: center; */
     }
 
     #skillrow1 {
